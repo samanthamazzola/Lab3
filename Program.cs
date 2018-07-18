@@ -11,6 +11,9 @@ namespace Lab3
             Console.WriteLine("Please enter a whole integer between 1 and 100: ");
             i = Double.Parse(Console.ReadLine());
 
+            //like jesse's code you can knock out if your number is in the range by
+            //if (i 1 >= || i <= 100) that will let you move forward if true
+            //then eval for if odd the should move right to Continue() validation
             //input
             if (i % 2 == 0 && i >= 2 && i <= 25)
             {
