@@ -58,7 +58,7 @@ namespace Lab3
             {
                 return;
             }
-           //TO DO create if the user puts in non integer values. also evaluate if the user puts in different Y/N for the last prompt to Continue()
+           //TO DO create if the user puts in non integer values USE Try Catch validation. also evaluate if the user puts in different Y/N for the last prompt to Continue()
         }
     }
 }
