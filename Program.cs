@@ -52,7 +52,7 @@ namespace Lab3
         //validation from two prompt options
         static void Continue()
         {
-            Console.WriteLine("Would you like to continue? Type Y/N.");
+            Console.WriteLine("Would you like to continue? Type either Y/N.");
             if (Console.ReadLine() == "Y")
             {
                 Main();
